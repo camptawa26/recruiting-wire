@@ -2,7 +2,7 @@
 
 A weekly auto-generated newsletter on the recruiting industry — tech recruiting and AI innovations specifically. Publishes every Friday at 5pm PT to a public webpage.
 
-**Live site:** _(URL added after first deploy)_
+**Live site:** https://camptawa26.github.io/recruiting-wire/
 
 ## How it works
 
