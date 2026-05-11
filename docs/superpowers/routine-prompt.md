@@ -10,11 +10,21 @@ You are publishing this week's issue of "The Recruiting Wire," a weekly newslett
 
 GitHub repo: `camptawa26/recruiting-wire` (branch `main`).
 
-Use the GitHub MCP for all repo reads/writes. Use Google Drive MCP for reading the feedback Sheet.
+The repo is **auto-cloned into your working directory** at the start of the run (via the routine's `sources` config). Use `git` CLI via the **Bash** tool for all repo reads/writes — do not use GitHub MCP.
+
+Before your first commit, configure the git author (skip silently if already set):
+
+```bash
+git config user.email "recruiting-wire-bot@users.noreply.github.com"
+git config user.name "Recruiting Wire Routine"
+```
+
+Use Google Drive MCP for reading the feedback Sheet.
 
 ## Step 1 — Read style and learnings
 
-Fetch from the repo:
+`cd` into the cloned repo directory if you aren't already in it. Then read these files (they're already on disk after the clone — no API call needed):
+
 - `ai-writing-rules.md` — mandatory writing rules. Honor these strictly.
 - `learnings.md` — durable rules learned from past feedback. Honor these as well.
 
@@ -26,7 +36,7 @@ Read all rows where the `Processed` column is empty.
 
 For each unprocessed row:
 
-1. Create a file at `feedback/raw/YYYY-MM-DD-<short-id>.md` in the repo (use a 6-char hash of the timestamp+feedback as the short-id). Body:
+1. Create a file at `feedback/raw/YYYY-MM-DD-<short-id>.md` in the local clone (use a 6-char hash of the timestamp+feedback as the short-id). Body:
    ```
    ---
    submitted_at: <timestamp from sheet>
@@ -34,7 +44,12 @@ For each unprocessed row:
 
    <feedback body verbatim>
    ```
-   Commit via GitHub MCP with message: `feedback: capture submission YYYY-MM-DD-<short-id>`.
+   Then commit + push:
+   ```bash
+   git add feedback/raw/YYYY-MM-DD-<short-id>.md
+   git commit -m "feedback: capture submission YYYY-MM-DD-<short-id>"
+   git push origin main
+   ```
 
 2. Mark the Sheet row's `Processed` column with `Processed YYYY-MM-DD` so it isn't re-ingested next week.
 
@@ -46,7 +61,12 @@ Append each durable rule as a bullet in `learnings.md` under "Active rules", wit
 - Lead with strategic implications, not news (2026-05-23)
 ```
 
-Commit `learnings.md` with message: `learnings: update from feedback YYYY-MM-DD`.
+Then commit + push:
+```bash
+git add learnings.md
+git commit -m "learnings: update from feedback YYYY-MM-DD"
+git push origin main
+```
 
 Do NOT extract rules from trivial feedback (e.g., "Test", "looks good", "ignore"). If the feedback is not actionable as a persistent guideline, only file it in `raw/` and do not touch `learnings.md`.
 
@@ -117,7 +137,13 @@ Rewrite any flagged sentence.
 
 ## Step 5 — Publish
 
-Overwrite `current-issue.md` in the repo with the final draft. Commit message: `issue: publish week of YYYY-MM-DD`.
+Overwrite `current-issue.md` in the local clone with the final draft. Then commit + push:
+
+```bash
+git add current-issue.md
+git commit -m "issue: publish week of YYYY-MM-DD"
+git push origin main
+```
 
 ## Step 6 — Report
 
@@ -126,6 +152,6 @@ End your run with a summary:
 - Rules added to learnings.md: N
 - Target word count vs. actual: 900-1,100 / <actual>
 - Sections omitted under no-padding rule: <list or "none">
-- Commits made: <list with SHAs if available>
+- Commits made: <list with SHAs from `git rev-parse HEAD` after each commit>
 
-If any step failed (e.g., GitHub commit error, Drive read error), report the error clearly and do not silently proceed.
+If any step failed (e.g., git push auth error, Drive read error), report the error verbatim and do not silently proceed. In particular, if `git push` fails with an auth error on the first commit, stop and report — that's the signal to pivot the architecture.
