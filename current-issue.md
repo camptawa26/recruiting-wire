@@ -1,68 +1,65 @@
 # The Recruiting Wire
 
-*Week of May 12–16, 2026*
+*Week of May 11–15, 2026*
 
 ## 📌 The Week in One Paragraph
 
-Agentic AI in hiring moved from pilot to production this week, with multiple enterprise-scale launches confirming that autonomous interview-and-scoring workflows are now infrastructure decisions, not R&D experiments. The legal exposure from algorithmic screening is hardening at the same pace: class actions against AI hiring vendors are naming recognizable employers as clients, raising compliance questions for anyone using automated candidate scoring without disclosed audits. Two concurrent waves of Big Tech restructuring are simultaneously releasing mid-to-senior engineering and product talent before most of the market knows it's available.
+Cloudflare cut 1,100 employees — 20% of its workforce — on the same earnings call where it reported record quarterly revenue, with CEO Matthew Prince attributing the cuts directly to internal AI adoption that grew 600% in three months. ServiceNow shipped its Autonomous Workforce suite at Knowledge 2026, putting HR AI Specialists into general availability and positioning them as structural replacements for the support roles now disappearing across enterprises. The legal layer keeps tightening: the Workday AI discrimination class action is drawing national feature coverage three months after receiving class certification, with 1.1 billion rejected applications at issue.
 
 ## 🤖 AI in Recruiting
 
-- Amazon launched Amazon Connect Talent in preview: AI agents conduct structured voice interviews, score candidates against job-specific criteria, and hand recruiters a finished evaluation packet instead of a resume pile, with the company's next large seasonal hiring cycle (historically 250,000+ workers) planned to run through this system. — [Yahoo Finance / CGTN](https://finance.yahoo.com/sectors/technology/articles/amazon-targets-mass-hiring-agentic-160051472.html)
+- ServiceNow launched Autonomous Workforce at Knowledge 2026 (May 5), releasing AI Specialists that handle complete business workflows without human prompts across HR, IT, CRM, and finance; the HR AI Specialist is now generally available. Josh Bersin’s analysis calls it the start of the largest HR transformation in decades, estimating the agents will eliminate up to 30% of traditional HR roles as enterprises restructure around them. — [ServiceNow Newsroom](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-brings-Autonomous-Workforce-to-every-major-business-function/default.aspx) / [Josh Bersin](https://joshbersin.com/2026/05/servicenow-pushes-the-envelope-on-enterprise-ai-with-vision-of-managing-everything/)
 
-- A January 2026 class action against Eightfold AI is gaining momentum across legal and HR media this week: the suit alleges Eightfold scraped data on over 1 billion workers, assigned hidden 0-5 candidate scores at clients including Microsoft, PayPal, and Morgan Stanley, and provided none of the FCRA disclosures that consumer reports legally require. — [HR Brew](https://www.hr-brew.com/stories/2026/01/29/ai-powered-hiring-platform-eightfold-ai-faces-lawsuit-over-hiring-data-used-to-rate-candidates) / [National Law Review](https://natlawreview.com/article/ai-hiring-under-fire-what-eightfold-lawsuit-means-every-employer-using-algorithmic)
+- The Workday AI discrimination lawsuit (Mobley v. Workday) resurfaced in national press this week after feature coverage of the lead plaintiff being rejected by Workday’s AI screening over 150 times across job applications. The case, certified as a collective action in February 2026, has age, race, and disability discrimination claims all proceeding; Workday’s own court filings put 1.1 billion application rejections at issue. — [American Bazaar Online](https://americanbazaaronline.com/2026/05/05/rejected-150-times-inside-the-ai-hiring-lawsuit-against-workday-480180/) / [HR Executive](https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/)
 
 ## 💼 Tech Hiring & Roles in Demand
 
-- LinkedIn ranked AI engineer the #1 fastest-growing US job in 2026, with postings up 143% year-over-year; companies training frontier-scale models saw 92% headcount growth in the same period. — [Dice.com / LinkedIn](https://www.dice.com/career-advice/ai-related-jobs-top-linkedins-fastest-growing-roles-list-for-2026)
+- AI/ML hiring grew 88% year-over-year in 2025 while entry-level tech hiring (P1/P2) fell 73% in the same period; demand is concentrating sharply at the top, with mid-level generalist roles taking the steepest squeeze of any tier. Robert Half’s 2026 data puts AI/ML role compensation growing at 4.1% this year vs. 1.6% for average tech. — [Robert Half 2026 Technology Salary Guide](https://www.roberthalf.com/us/en/insights/salary-guide/technology)
 
-- For the first time in Korn Ferry's TA Trends survey history, fewer than four in ten employers (37%) treat credentials or degree history as a reliable candidate signal, with skills now the dominant evaluation method across surveyed companies. — [Korn Ferry 2026 TA Trends](https://www.kornferry.com/insights/featured-topics/talent-recruitment-articles/ai-in-recruitment-trends)
+- CompTIA projects US tech employment will grow 1.9% in 2026, adding roughly 185,000 jobs and pushing total sector headcount close to 9.8 million — a rebound from 2025’s net loss of 33,600 jobs, driven by AI infrastructure and cloud roles. All 50 states are projected to add tech jobs this year. — [CompTIA via HR Tech Edge](https://hrtechedge.com/us-tech-hiring-rebounds-in-2026-as-ai-fuels-demand-for-skilled-talent-comptia-report/)
 
 ## 📈 Funding & Hiring Signals
 
-- Crunchbase reports HR software startups raised $3B+ in the first half of 2026, with round sizes growing even as deal count falls — a consolidation signal that capital is concentrating around fewer, better-differentiated platforms rather than funding a broad field of competitors. — [Crunchbase News](https://news.crunchbase.com/venture/ai-hr-software-startup-funding-ma/)
-
-- SAP began migrating SuccessFactors customers to SmartRecruiters in March 2026 (3-5 year window) following its September 2025 acquisition, replacing the SuccessFactors recruiting module entirely. Any current SuccessFactors customer is now deciding whether to follow SAP or re-evaluate their ATS on an independent timeline. — [SAP News](https://news.sap.com/2026/03/smartrecruiters-for-sap-successfactors-ai-driven-hiring-connected-hcm/)
+- Sierra (Bret Taylor and Clay Baird) raised $950M at a $15B valuation on May 4, led by Tiger Global and GV with Benchmark and Sequoia also participating. The enterprise AI agent platform serves more than 40% of the Fortune 50 — customers include Prudential, Cigna, and Rocket Mortgage — reached $150M ARR in eight quarters, and is now expanding into Europe and Asia under new President Eric Eyken-Sluyters (ex-Salesforce Agentforce). At 488 employees and a fresh $950M, near-term targeted hiring across field ops and enterprise sales is certain. — [TechCrunch](https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/) / [CNBC](https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html)
 
 ## 📉 Layoffs & Talent Released
 
-- TechCrunch reported May 8 that Oracle refused to improve severance for the 20,000-30,000 employees laid off via email on March 31, rejecting a 90-person petition with form-letter responses while one employee lost nearly $1M in RSUs weeks from vesting; Oracle's package (four weeks plus one per year, capped at 26) sits well below Meta's floor of 16 weeks plus two per year of service. — [TechCrunch](https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/)
+- Cloudflare announced 1,100 job cuts on May 7 — 20% of its workforce and the company’s first mass layoff in 16 years — citing internal AI usage that jumped 600% in three months; cuts concentrated on HR, marketing, finance, and engineering support roles. Q1 revenue came in at a record $639.8M (+34% YoY), making this the week’s most concrete case of profitable growth driving AI-first restructuring, not financial pressure. — [TechCrunch](https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/) / [CNBC](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html)
 
-- Meta confirmed 8,000 cuts beginning May 20 plus cancellation of 6,000 open requisitions, as it reorganizes teams into AI-focused pods and commits $115-135B to AI infrastructure this year — the effective talent release is mid-to-senior engineers and product managers across Reality Labs, Facebook, and platform product, reaching the market over the next two months. — [The Next Web](https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026)
+- Nike cut approximately 1,400 employees in its second round of 2026 layoffs, concentrating reductions in the technology department as the company consolidates to two tech hubs: the Philip H. Knight Campus and Nike India Technology Center. Released talent includes product engineers, data engineers, and digital commerce specialists. — [CIO Dive](https://www.ciodive.com/news/nike-cuts-1400-roles-reshapes-technology-team/818477/) / [Retail Dive](https://www.retaildive.com/news/nike-layoffs-cuts-thousands-tech-jobs/818391/)
 
 ## 💰 Compensation
 
-- Levels.fyi May 2026 data puts AI/ML engineer median total comp at $245K across top companies, with frontier labs (OpenAI, Anthropic) at $600K-$795K where stock dominates above mid-level seniority. Any compensation benchmark older than Q4 2025 used to counter a frontier-lab offer will come up short. — [Levels.fyi](https://www.levels.fyi/t/software-engineer/focus/ml-ai)
+- Robert Half’s 2026 Technology Salary Guide: AI/ML engineers earning $134K–$193K at mainstream employers (midpoint $170,750), with that range growing at 4.1% this year — more than double the 1.6% average for all tech roles. Any AI-adjacent comp benchmark predating Q4 2025 will lose offers at final stage. — [Robert Half 2026 Technology Salary Guide](https://www.roberthalf.com/us/en/insights/salary-guide/technology)
 
-- PwC's Global AI Jobs Barometer, drawn from nearly 1 billion job postings, found the AI skills wage premium reached 56% in 2025, up from 25% the prior year; specialized LLM fine-tuning and MLOps at scale add another 25-45% on top of base. — [PwC / Rise AI Talent Salary Report 2026](https://www.riseworks.io/blog/ai-talent-salary-report-2025)
+- For non-AI tech roles, base pay growth is decelerating: 3.5% projected for 2026, down from 4% in 2025. The comp gap between AI-skilled and traditional tech workers compounds with every annual cycle — a dynamic that makes precise role classification increasingly important when setting client expectations before an offer goes out. — [Robert Half 2026 Technology Salary Guide](https://www.roberthalf.com/us/en/insights/salary-guide/technology)
 
-## 🧰 Promising AI Tools to Test
+## 🗣️ Quotes & Threads Worth Reading
 
-- [Ashby](https://www.ashbyhq.com/) — AI-native ATS covering application review, scheduling, and hiring analytics in one platform. Signal: $50M Series D (Alkeon Capital, July 2025); named enterprise customers include OpenAI and Shopify. Test recommendation: pilot on engineering hiring at a Series B+ client where pipeline data and structured reporting are priorities — Ashby's analytics surface hiring bottlenecks that most ATSs don't expose.
+- “Just because you’re fit doesn’t mean you can’t get fitter.” — Matthew Prince, CEO of Cloudflare, on the May 7 earnings call explaining 1,100 job cuts during record revenue. Worth sending to any hiring manager who believes strong financial performance protects their team from AI restructuring. — [TechCrunch](https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/)
 
 ## 🎯 Strategic Implications
 
-- Send a one-page briefing on the Eightfold lawsuit to hiring manager clients this week: any company using algorithmic screening needs a vendor disclosure and FCRA review before this surfaces through a reporter or opposing counsel.
-- Meta's engineers and product managers hit the market starting May 20 — targeted outreach to Meta alumni in AI infrastructure, Reality Labs, and platform product should be running by next week at the latest.
-- Oracle alumni from the March cuts are six weeks into their search with minimal severance and significant RSU losses; well-timed outreach positioning your firm as an advocate rather than a vendor will convert at higher rates than standard sourcing.
-- Reprice AI engineer retainers for any client whose comp benchmark predates Q4 2025 — frontier-lab counteroffers start at $600K, and clients working from stale data are losing offers at final stage.
-- Bring up the SAP migration timeline with any SuccessFactors client: the 3-5 year evaluation window is open now, and the companies that make this decision proactively will get better terms than the ones who wait for SAP's migration team to call them.
+- Brief every client using Workday for AI-assisted screening on the Mobley class action before it reaches their legal team — national press coverage started this week and will generate inbound questions; the agency that brings the briefing owns the conversation.
+- Cloudflare alumni from the May 7 cut are on the market now: HR, marketing, finance, and engineering support talent concentrated in the Bay Area, with recent experience working inside a company that actually deployed AI at scale.
+- Sierra AI raised $950M at $15B with 488 employees — map their open roles this week and build shortlists for field ops, solutions engineering, and enterprise account management before they post publicly.
+- Meta’s 8,000 engineers and PMs hit the market May 20 — outreach to Reality Labs, AI infrastructure, and platform product alumni should be ready to send May 21.
+- Replace any AI/ML comp benchmark predating Q4 2025 in active client decks — Robert Half’s 4.1% annual growth rate means a 12-month-old figure is already materially below market and costs placements at final stage.
 
 ## 🔗 Sources Scanned This Week
 
-- TechCrunch (Oracle severance, May 8)
-- HR Brew (Eightfold AI lawsuit)
-- National Law Review (Eightfold / algorithmic screening liability)
-- Yahoo Finance / CGTN (Amazon Connect Talent, April 28-29)
-- The Next Web (Meta layoffs)
-- Korn Ferry 2026 TA Trends Report
-- LinkedIn Fastest-Growing Jobs 2026 / Dice.com
-- Crunchbase News (HR tech funding, H1 2026)
-- SAP News Center (SmartRecruiters migration, March 2026)
-- Levels.fyi (AI engineer compensation, May 2026)
-- PwC 2025 Global AI Jobs Barometer
-- Rise AI Talent Salary Report 2026
-- TrueUp layoffs tracker
-- Josh Bersin (joshbersin.com)
+- ServiceNow Newsroom (Knowledge 2026, May 5)
+- Josh Bersin (joshbersin.com, May 5)
+- American Bazaar Online (Mobley v. Workday, May 5)
+- HR Executive (Workday AI lawsuit analysis)
+- TechCrunch (Cloudflare layoffs May 8; Sierra AI funding May 4)
+- CNBC (Cloudflare earnings May 7; Sierra AI raise May 4)
+- CIO Dive / Retail Dive (Nike tech layoffs, May 2026)
+- The Next Web (Meta layoffs, May 2026)
+- Robert Half 2026 Technology Salary Guide
+- CompTIA / HR Tech Edge (US tech employment, 2026)
+- TrueUp Layoffs Tracker
 - Recruiting Brainfood (Hung Lee, Substack)
-- ERE Media (ERE Recruiting Innovation Summit, May 5-6)
+- ERE Media
+- Crunchbase News
+- Levels.fyi
