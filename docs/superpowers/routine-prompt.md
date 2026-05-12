@@ -30,28 +30,34 @@ Use Google Drive MCP for reading the feedback Sheet.
 
 ## Step 2 — Ingest new feedback
 
-Find the Google Sheet titled `Recruiting Wire — Feedback Responses` in Google Drive (via Drive MCP).
+**Dedup mechanism (important — read carefully).** Sheet write-access via Drive MCP is unreliable, so we track which rows have been processed in a file inside the repo: `feedback/.processed-timestamps.txt`. This file lists, one per line, the verbatim `Timestamp` column value of every Sheet row already ingested. The routine treats this file as the source of truth — do NOT try to write a `Processed` column back to the Sheet.
 
-Read all rows where the `Processed` column is empty.
+1. Read `feedback/.processed-timestamps.txt` from the repo. If it does not exist, treat it as empty (and create it during step 3).
 
-For each unprocessed row:
+2. Find the Google Sheet titled `Recruiting Wire — Feedback Responses` in Google Drive (via Drive MCP). Read all rows.
 
-1. Create a file at `feedback/raw/YYYY-MM-DD-<short-id>.md` in the local clone (use a 6-char hash of the timestamp+feedback as the short-id). Body:
+3. For each Sheet row, take its `Timestamp` value verbatim and check if it appears as a line in `feedback/.processed-timestamps.txt`. If yes → skip (already ingested). If no → treat as new and proceed below.
+
+4. For each new row, create a file at `feedback/raw/YYYY-MM-DD-<short-id>.md` in the local clone (use a 6-char hash of the timestamp+feedback as the short-id; YYYY-MM-DD is the date from the Timestamp). Body:
    ```
    ---
-   submitted_at: <timestamp from sheet>
+   submitted_at: <Timestamp from sheet, verbatim>
    ---
 
    <feedback body verbatim>
    ```
-   Then commit + push:
+
+5. After processing all new rows, append every newly-ingested row's `Timestamp` (verbatim) as a new line in `feedback/.processed-timestamps.txt`. If no new rows were ingested this run, do not touch this file.
+
+6. Commit + push in a single commit covering all new `raw/` files AND the updated `.processed-timestamps.txt`:
+
    ```bash
-   git add feedback/raw/YYYY-MM-DD-<short-id>.md
-   git commit -m "feedback: capture submission YYYY-MM-DD-<short-id>"
+   git add feedback/raw/ feedback/.processed-timestamps.txt
+   git commit -m "feedback: capture N submissions (YYYY-MM-DD)"
    git push origin main
    ```
 
-2. Mark the Sheet row's `Processed` column with `Processed YYYY-MM-DD` so it isn't re-ingested next week.
+   (If no new rows, skip this commit entirely — do not produce an empty feedback commit.)
 
 Then read all newly captured feedback and decide which contain **durable** rules (persistent style or content preferences) vs. one-off comments.
 
