@@ -1,58 +1,68 @@
 # The Recruiting Wire
 
-*Week of May 11–15, 2026*
+*Week of May 12–16, 2026*
 
 ## 📌 The Week in One Paragraph
 
-The skills-swap pattern is spreading beyond tech pure plays. General Motors cut 500-600 IT workers on May 11 while posting 82 open AI engineering roles the same day — an explicit exchange of skill sets, not a headcount reduction. PayPal announced 4,760 cuts the prior week, framing them as what it takes to "become a technology company again." With Colorado's AI Act enforcement starting June 30, the compliance window for companies running AI screening is also closing fast.
+Agentic AI in hiring moved from pilot to production this week, with multiple enterprise-scale launches confirming that autonomous interview-and-scoring workflows are now infrastructure decisions, not R&D experiments. The legal exposure from algorithmic screening is hardening at the same pace: class actions against AI hiring vendors are naming recognizable employers as clients, raising compliance questions for anyone using automated candidate scoring without disclosed audits. Two concurrent waves of Big Tech restructuring are simultaneously releasing mid-to-senior engineering and product talent before most of the market knows it's available.
 
 ## 🤖 AI in Recruiting
 
-- The Mobley v. Workday plaintiffs filed an amended complaint in March adding state-law bias claims and a physical disability discrimination count, both of which the court allowed to proceed. The case already cleared preliminary collective-action certification, covering millions of applicants over 40 who applied through Workday's AI-powered recommendation system. — [HR Executive](https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/)
+- Amazon launched Amazon Connect Talent in preview: AI agents conduct structured voice interviews, score candidates against job-specific criteria, and hand recruiters a finished evaluation packet instead of a resume pile, with the company's next large seasonal hiring cycle (historically 250,000+ workers) planned to run through this system. — [Yahoo Finance / CGTN](https://finance.yahoo.com/sectors/technology/articles/amazon-targets-mass-hiring-agentic-160051472.html)
 
-- Colorado's AI Act (SB 24-205) — which requires documented bias impact assessments for "high-risk" AI systems including hiring tools — has been delayed to June 30, 2026, giving employers seven more weeks before enforcement starts. Companies using AI screening tools in Colorado should use this window to ask vendors for audit-ready bias testing documentation. — [Drata](https://drata.com/learn/ai/state-federal-regulations-laws)
+- A January 2026 class action against Eightfold AI is gaining momentum across legal and HR media this week: the suit alleges Eightfold scraped data on over 1 billion workers, assigned hidden 0-5 candidate scores at clients including Microsoft, PayPal, and Morgan Stanley, and provided none of the FCRA disclosures that consumer reports legally require. — [HR Brew](https://www.hr-brew.com/stories/2026/01/29/ai-powered-hiring-platform-eightfold-ai-faces-lawsuit-over-hiring-data-used-to-rate-candidates) / [National Law Review](https://natlawreview.com/article/ai-hiring-under-fire-what-eightfold-lawsuit-means-every-employer-using-algorithmic)
 
 ## 💼 Tech Hiring & Roles in Demand
 
-- GM's May 11 IT restructuring is the clearest example yet of a non-tech incumbent rebuilding its IT function around AI. The company cut generalist IT support and operations roles while posting open positions in AI-native development, data engineering, cloud architecture, and prompt engineering — a deliberate skill conversion executed in a single day. — [TechCrunch](https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/)
+- LinkedIn ranked AI engineer the #1 fastest-growing US job in 2026, with postings up 143% year-over-year; companies training frontier-scale models saw 92% headcount growth in the same period. — [Dice.com / LinkedIn](https://www.dice.com/career-advice/ai-related-jobs-top-linkedins-fastest-growing-roles-list-for-2026)
 
-- The US projects 1.3 million AI job openings over the next two years with qualified supply covering fewer than 645,000 — a roughly 2:1 gap. Entry-level and generalist IT roles face compressing demand. The GM move signals this bifurcation is becoming structural across sectors, not just in cloud-native companies. — [Acceler8 Talent](https://www.acceler8talent.com/resources/blog/ai-engineer--salary---market-rates-2025-2026/)
+- For the first time in Korn Ferry's TA Trends survey history, fewer than four in ten employers (37%) treat credentials or degree history as a reliable candidate signal, with skills now the dominant evaluation method across surveyed companies. — [Korn Ferry 2026 TA Trends](https://www.kornferry.com/insights/featured-topics/talent-recruitment-articles/ai-in-recruitment-trends)
 
 ## 📈 Funding & Hiring Signals
 
-- Juicebox closed an $80M Series B in March, led by DST Global with Sequoia and Coatue participating, at an $850M valuation. The AI sourcing platform tripled ARR since its September 2025 Series A and now serves 5,000 customers including Fortune 100 brands, searching 800M+ profiles across 30+ sources. — [Juicebox blog](https://juicebox.ai/blog/juicebox-secures-36m-to-scale-ai-recruiting-agents-for-enterprise-and-startups-juicebox-ai)
+- Crunchbase reports HR software startups raised $3B+ in the first half of 2026, with round sizes growing even as deal count falls — a consolidation signal that capital is concentrating around fewer, better-differentiated platforms rather than funding a broad field of competitors. — [Crunchbase News](https://news.crunchbase.com/venture/ai-hr-software-startup-funding-ma/)
 
-- Rippling crossed $1 billion in annualized revenue in March 2026, growing 78% year-over-year. One of the fastest-growing HR platforms at scale; a continued signal that full-stack HR workflows (payroll + ATS + IT provisioning) are taking share from point solutions. — [Sacra](https://sacra.com/c/rippling/)
+- SAP began migrating SuccessFactors customers to SmartRecruiters in March 2026 (3-5 year window) following its September 2025 acquisition, replacing the SuccessFactors recruiting module entirely. Any current SuccessFactors customer is now deciding whether to follow SAP or re-evaluate their ATS on an independent timeline. — [SAP News](https://news.sap.com/2026/03/smartrecruiters-for-sap-successfactors-ai-driven-hiring-connected-hcm/)
 
 ## 📉 Layoffs & Talent Released
 
-- PayPal announced 4,760 cuts on May 5 — 20% of its 23,800-person workforce — as part of a 2-to-3-year restructuring. New CEO Enrique Lores said PayPal is "becoming a technology company again," with aggressive AI adoption across development. These are the largest fintech cuts of 2026 so far. — [TechCrunch](https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/)
+- TechCrunch reported May 8 that Oracle refused to improve severance for the 20,000-30,000 employees laid off via email on March 31, rejecting a 90-person petition with form-letter responses while one employee lost nearly $1M in RSUs weeks from vesting; Oracle's package (four weeks plus one per year, capped at 26) sits well below Meta's floor of 16 weeks plus two per year of service. — [TechCrunch](https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/)
 
-- GM cut 500-600 salaried IT workers on May 11, concentrated in Austin and Warren, Michigan. Affected roles are traditional IT support and operations positions. The company listed 82 open AI-focused roles the same day and is hiring despite the reduction. — [CNBC](https://www.cnbc.com/2026/05/11/gm-layoffs.html)
+- Meta confirmed 8,000 cuts beginning May 20 plus cancellation of 6,000 open requisitions, as it reorganizes teams into AI-focused pods and commits $115-135B to AI infrastructure this year — the effective talent release is mid-to-senior engineers and product managers across Reality Labs, Facebook, and platform product, reaching the market over the next two months. — [The Next Web](https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026)
 
-- Starbucks filed a WARN notice on May 11 covering 61 Seattle tech roles in cybersecurity, application development, and systems administration. First separations begin June 20. The cuts follow the company's plan to establish a new Nashville tech hub and relocate up to 2,000 roles over five years. — [GeekWire](https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/)
+## 💰 Compensation
+
+- Levels.fyi May 2026 data puts AI/ML engineer median total comp at $245K across top companies, with frontier labs (OpenAI, Anthropic) at $600K-$795K where stock dominates above mid-level seniority. Any compensation benchmark older than Q4 2025 used to counter a frontier-lab offer will come up short. — [Levels.fyi](https://www.levels.fyi/t/software-engineer/focus/ml-ai)
+
+- PwC's Global AI Jobs Barometer, drawn from nearly 1 billion job postings, found the AI skills wage premium reached 56% in 2025, up from 25% the prior year; specialized LLM fine-tuning and MLOps at scale add another 25-45% on top of base. — [PwC / Rise AI Talent Salary Report 2026](https://www.riseworks.io/blog/ai-talent-salary-report-2025)
 
 ## 🧰 Promising AI Tools to Test
 
-- [Juicebox](https://juicebox.ai/) — AI recruiter that searches 800M+ profiles across 30+ sources and runs end-to-end autonomous candidate outreach. Signal: $80M Series B (DST Global + Sequoia), 5,000 customers across Fortune 100 and growth-stage tech, ARR tripled in under 12 months. Test recommendation: pilot on hard-to-fill senior AI/ML or infrastructure roles where passive sourcing is the main bottleneck.
+- [Ashby](https://www.ashbyhq.com/) — AI-native ATS covering application review, scheduling, and hiring analytics in one platform. Signal: $50M Series D (Alkeon Capital, July 2025); named enterprise customers include OpenAI and Shopify. Test recommendation: pilot on engineering hiring at a Series B+ client where pipeline data and structured reporting are priorities — Ashby's analytics surface hiring bottlenecks that most ATSs don't expose.
 
 ## 🎯 Strategic Implications
 
-- Call GM's HR and TA leads this week — the company explicitly stated it needs AI engineering, data, and cloud talent and cut its internal team to get there; this is an inbound recruiting mandate wrapped in a layoff announcement
-- Source from the PayPal talent pool now: 4,760 fintech engineers and product managers at large-company scale, with cuts rolling over 2-3 years, meaning many affected employees won't have urgency yet and are reachable before outplacement floods the market
-- Brief financial-services and automotive clients on the GM and PayPal moves before their boards ask — proactively framing how their own IT workforce compares positions you as a strategic partner, not a headhunter
-- Log your clients' AI hiring tool vendors ahead of Colorado's June 30 AI Act start; if clients use automated screening in Colorado, they'll need bias audit documentation from vendors and most haven't asked for it yet
-- Pitch AI infrastructure and ML engineering search to manufacturing, finance, and retail incumbents that haven't restructured their IT departments: the GM pattern will repeat across industries in Q3-Q4
+- Send a one-page briefing on the Eightfold lawsuit to hiring manager clients this week: any company using algorithmic screening needs a vendor disclosure and FCRA review before this surfaces through a reporter or opposing counsel.
+- Meta's engineers and product managers hit the market starting May 20 — targeted outreach to Meta alumni in AI infrastructure, Reality Labs, and platform product should be running by next week at the latest.
+- Oracle alumni from the March cuts are six weeks into their search with minimal severance and significant RSU losses; well-timed outreach positioning your firm as an advocate rather than a vendor will convert at higher rates than standard sourcing.
+- Reprice AI engineer retainers for any client whose comp benchmark predates Q4 2025 — frontier-lab counteroffers start at $600K, and clients working from stale data are losing offers at final stage.
+- Bring up the SAP migration timeline with any SuccessFactors client: the 3-5 year evaluation window is open now, and the companies that make this decision proactively will get better terms than the ones who wait for SAP's migration team to call them.
 
 ## 🔗 Sources Scanned This Week
-- TechCrunch
-- CNBC
-- GeekWire / Automotive News
-- HR Executive
-- Drata AI Law Update
-- Juicebox blog
-- Sacra
-- Acceler8 Talent
-- Layoff Hedge / Skillsyncer
+
+- TechCrunch (Oracle severance, May 8)
+- HR Brew (Eightfold AI lawsuit)
+- National Law Review (Eightfold / algorithmic screening liability)
+- Yahoo Finance / CGTN (Amazon Connect Talent, April 28-29)
+- The Next Web (Meta layoffs)
+- Korn Ferry 2026 TA Trends Report
+- LinkedIn Fastest-Growing Jobs 2026 / Dice.com
+- Crunchbase News (HR tech funding, H1 2026)
+- SAP News Center (SmartRecruiters migration, March 2026)
+- Levels.fyi (AI engineer compensation, May 2026)
+- PwC 2025 Global AI Jobs Barometer
+- Rise AI Talent Salary Report 2026
+- TrueUp layoffs tracker
 - Josh Bersin (joshbersin.com)
-- LinkedIn Talent Blog
+- Recruiting Brainfood (Hung Lee, Substack)
+- ERE Media (ERE Recruiting Innovation Summit, May 5-6)
