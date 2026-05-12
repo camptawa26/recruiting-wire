@@ -10,7 +10,8 @@ This file is the durable, synthesized memory of feedback. The generation routine
 
 ## Active rules
 
-_(none yet — this file will be populated by the routine after the first feedback submission)_
+- Keep item summaries concise; avoid multi-sentence elaboration where one tight sentence does the job (2026-05-12)
+- Match bullet count per section to the quality of available content that week — do not pad to a fixed number (2026-05-12)
 
 ---
 

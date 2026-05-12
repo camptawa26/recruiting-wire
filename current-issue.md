@@ -1,68 +1,58 @@
 # The Recruiting Wire
 
-*Week of May 4–May 8, 2026*
+*Week of May 11–15, 2026*
 
 ## 📌 The Week in One Paragraph
 
-The week's clearest story was Cloudflare cutting 1,100 employees (20% of its workforce) on the same day it reported record quarterly revenue, framing the move as a shift to an "agentic AI-first operating model" rather than a financial response. Against that backdrop, tech layoffs have crossed 128,000 for the year, Meta's 8,000-person cut takes effect May 20, and AI engineers are commanding 9% year-over-year salary gains. The talent market is splitting hard by specialization, and profitable companies are now the ones driving the restructuring.
+The skills-swap pattern is spreading beyond tech pure plays. General Motors cut 500-600 IT workers on May 11 while posting 82 open AI engineering roles the same day — an explicit exchange of skill sets, not a headcount reduction. PayPal announced 4,760 cuts the prior week, framing them as what it takes to "become a technology company again." With Colorado's AI Act enforcement starting June 30, the compliance window for companies running AI screening is also closing fast.
 
 ## 🤖 AI in Recruiting
 
-- Cloudflare announced 1,100 layoffs (20% of staff) while posting record Q1 revenue of $639.8M, up 34% year-over-year, citing a 600% jump in internal AI usage over three months. CEO Matthew Prince and co-founder Michelle Zatlyn wrote in a blog post: "Today's actions are not a cost-cutting exercise or an assessment of individuals' performance; they are about Cloudflare defining how a world-class, high-growth company operates and creates value in the agentic AI era." Recruiting and HR functions are estimated to absorb 35-40% of the cuts. — [TechCrunch](https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/)
+- The Mobley v. Workday plaintiffs filed an amended complaint in March adding state-law bias claims and a physical disability discrimination count, both of which the court allowed to proceed. The case already cleared preliminary collective-action certification, covering millions of applicants over 40 who applied through Workday's AI-powered recommendation system. — [HR Executive](https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/)
 
-- A class action against Eightfold AI is progressing through California courts, alleging the platform scraped data on over one billion workers, generated hidden "match scores" on a 0-5 scale, and filtered candidates before any human reviewed their application, violating the Fair Credit Reporting Act. Employers who used the platform are named alongside the vendor as co-defendants. If courts classify AI hiring tools as consumer reporting agencies, the liability exposure across the industry would be substantial. — [Outten & Golden](https://www.outtengolden.com/newsroom/landmark-class-action-accuses-eightfold-ai-of-illegally-producing-hidden-credit-reports-on-job-applicants)
+- Colorado's AI Act (SB 24-205) — which requires documented bias impact assessments for "high-risk" AI systems including hiring tools — has been delayed to June 30, 2026, giving employers seven more weeks before enforcement starts. Companies using AI screening tools in Colorado should use this window to ask vendors for audit-ready bias testing documentation. — [Drata](https://drata.com/learn/ai/state-federal-regulations-laws)
 
 ## 💼 Tech Hiring & Roles in Demand
 
-- Skills-based hiring has a credibility gap. NACE's Job Outlook 2026 found 70% of employers say they use skills-based hiring for entry-level roles, but separate analysis found only 1 in 700 hires actually reflects skills-first selection over credential filtering. IBM, Google, and Delta have removed degree requirements in policy, but the filters often survive in practice. Roles with the sharpest demand right now: AI engineers, data engineers, cloud architects, and cybersecurity analysts. — [iMocha](https://www.imocha.io/blog/skills-based-hiring-trends) / [analysis via Tucson.com](https://tucson.com/exclusive/article_7224358a-6157-5de3-9f92-bf6a085edb51.html)
+- GM's May 11 IT restructuring is the clearest example yet of a non-tech incumbent rebuilding its IT function around AI. The company cut generalist IT support and operations roles while posting open positions in AI-native development, data engineering, cloud architecture, and prompt engineering — a deliberate skill conversion executed in a single day. — [TechCrunch](https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/)
 
-- LinkedIn's "Skills on the Rise 2026" report found AI literacy, prompt engineering, and ML operations among the fastest-growing skills year-over-year, with non-technical leaders increasingly showing AI fluency in their profiles. Recruiters using LinkedIn's AI-Assisted Messaging are 9% more likely to make a quality hire, per the company's pilot data. — [LinkedIn Talent Blog](https://news.linkedin.com/2026/Skills-on-the-rise-2026)
+- The US projects 1.3 million AI job openings over the next two years with qualified supply covering fewer than 645,000 — a roughly 2:1 gap. Entry-level and generalist IT roles face compressing demand. The GM move signals this bifurcation is becoming structural across sectors, not just in cloud-native companies. — [Acceler8 Talent](https://www.acceler8talent.com/resources/blog/ai-engineer--salary---market-rates-2025-2026/)
 
 ## 📈 Funding & Hiring Signals
 
-- Humand closed a $66M Series A, co-led by Kaszek Ventures and Goodwater Capital, to build an AI operating system for the 2.7 billion deskless workers in manufacturing, retail, and logistics. The mobile-first HR platform now serves 2 million users across 2,000 companies in 51 countries and will use the capital to accelerate US expansion and automate HR workflows that traditionally required large help desk teams. — [The AI Insider](https://theaiinsider.tech/2026/02/26/humand-closes-66m-series-a-to-build-the-ai-operating-system-for-the-worlds-2-7b-deskless-workers/)
+- Juicebox closed an $80M Series B in March, led by DST Global with Sequoia and Coatue participating, at an $850M valuation. The AI sourcing platform tripled ARR since its September 2025 Series A and now serves 5,000 customers including Fortune 100 brands, searching 800M+ profiles across 30+ sources. — [Juicebox blog](https://juicebox.ai/blog/juicebox-secures-36m-to-scale-ai-recruiting-agents-for-enterprise-and-startups-juicebox-ai)
 
-- HR tech financing in Q1 2026 hit its lowest deal count since 2018, with only three Series A closes, per Kyle Getsiv's Q1 Funding Review. Compa, Paraform, and Juicebox each closed Series B rounds accounting for roughly two-thirds of all growth capital in the quarter. Year-to-date investment is still up 20%+ over the same period in 2025, carried by 15 mega-deals — capital is concentrating at larger bets, not retreating from the sector. — [Kyle Getsiv / Substack](https://kylegetsiv.substack.com/p/hr-tech-2026-q1-funding-review)
+- Rippling crossed $1 billion in annualized revenue in March 2026, growing 78% year-over-year. One of the fastest-growing HR platforms at scale; a continued signal that full-stack HR workflows (payroll + ATS + IT provisioning) are taking share from point solutions. — [Sacra](https://sacra.com/c/rippling/)
 
 ## 📉 Layoffs & Talent Released
 
-- Cloudflare cut 1,100 employees (its first mass layoff in 16 years) the same week it posted its best-ever quarterly revenue. The company cited AI making those roles obsolete, not financial pressure. Affected employees receive full base pay through end of year plus healthcare coverage; management described the cuts as a deliberate operating model decision. — [CNBC](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html)
+- PayPal announced 4,760 cuts on May 5 — 20% of its 23,800-person workforce — as part of a 2-to-3-year restructuring. New CEO Enrique Lores said PayPal is "becoming a technology company again," with aggressive AI adoption across development. These are the largest fintech cuts of 2026 so far. — [TechCrunch](https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/)
 
-- Meta's 8,000-person reduction takes effect May 20, with an additional 6,000 open roles now cancelled. Tech layoffs YTD have exceeded 128,000, with April running 38% above March's pace, per Skillsyncer's live tracker. The pattern across this cycle: profitable, growing companies are driving the cuts and attributing them to AI productivity gains rather than market conditions. — [Skillsyncer](https://skillsyncer.com/layoffs-tracker) / [Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html)
+- GM cut 500-600 salaried IT workers on May 11, concentrated in Austin and Warren, Michigan. Affected roles are traditional IT support and operations positions. The company listed 82 open AI-focused roles the same day and is hiring despite the reduction. — [CNBC](https://www.cnbc.com/2026/05/11/gm-layoffs.html)
 
-## 💰 Compensation
+- Starbucks filed a WARN notice on May 11 covering 61 Seattle tech roles in cybersecurity, application development, and systems administration. First separations begin June 20. The cuts follow the company's plan to establish a new Nashville tech hub and relocate up to 2,000 roles over five years. — [GeekWire](https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/)
 
-- US tech salaries grew 0.8% year-over-year on average in 2026, per Motion Recruitment's Tech Salary Guide. Sixty-six percent of employers cited economic uncertainty as the reason for constrained budgets, up from 17% in 2025. Entry-level and generalist roles saw flat or negative real-wage growth as candidate supply expands. — [Staffing Industry Analysts](https://www.staffingindustry.com/news/global-daily-news/us-tech-salaries-up-08-over-year-motion-recruitment)
+## 🧰 Promising AI Tools to Test
 
-- Specialized roles tell a different story: mid-level AI engineers are up 9.2% year-over-year, senior platform engineers up 8.9%, and mid-level Salesforce developers up 8.5%, per the same guide. These gains reflect genuine supply-demand gaps in AI-adjacent roles, not broad market conditions. — [Motion Recruitment](https://finance.yahoo.com/news/motion-recruitment-releases-2026-tech-123200570.html)
+- [Juicebox](https://juicebox.ai/) — AI recruiter that searches 800M+ profiles across 30+ sources and runs end-to-end autonomous candidate outreach. Signal: $80M Series B (DST Global + Sequoia), 5,000 customers across Fortune 100 and growth-stage tech, ARR tripled in under 12 months. Test recommendation: pilot on hard-to-fill senior AI/ML or infrastructure roles where passive sourcing is the main bottleneck.
 
-## 🗣️ Quotes & Threads Worth Reading
+## 🎯 Strategic Implications
 
-- "Today's actions are not a cost-cutting exercise or an assessment of individuals' performance; they are about Cloudflare defining how a world-class, high-growth company operates and creates value in the agentic AI era." — Matthew Prince and Michelle Zatlyn, Cloudflare blog post, May 8. Other C-suites will use this framing; your clients are already reading it. — [TechCrunch](https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/)
-
-- "Just because you're fit doesn't mean you can't get fitter." — Matthew Prince, Q1 2026 earnings call, responding to an analyst who asked why the company cut headcount after its best-ever quarter. This is the one-liner boards are circulating; it previews the conversation your clients will have with their HR leaders in Q3. — [CNBC](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html)
-
-## ⚙️ AI Workflow Automation Ideas
-
-- Before Meta's May 20 effective date, build a shortlist of roles and seniority levels overlapping with their cuts. A two-step outreach sequence works well here: a LinkedIn message on the day the news circulates, followed by a role-specific email pitch 72 hours later. The window to reach candidates before their inboxes fill is a few days, not weeks.
-
-- Test one agentic sourcing tool (Pin, Fetcher, or Stackforce) against a specific repeat-fill role over 10 business days. Track time-to-shortlist and acceptance rate against your baseline before committing budget. Vendor claims won't map to your pipeline until you run them on your own data.
-
-## 🎯 So What — Strategic Implications for Us
-
-The Cloudflare announcement opens a client conversation that most recruiters aren't having yet. When a profitable, growing company cuts 20% of headcount to restructure around AI productivity, its competitors and customers start asking the same questions internally. Being in front of clients now with one concrete question — which roles in their talent function are most exposed to consolidation — positions the agency as a strategic partner. That discussion is happening in most boardrooms, and most clients haven't brought a recruiter into it.
-
-The Eightfold lawsuit deserves a brief client-facing note. If your clients use AI screening tools through their ATS, they may have co-defendant exposure they're unaware of. A one-page document covering what the suit alleges and three questions to ask any AI screening vendor is a high-value touchpoint with legal and HR contacts, costs almost nothing to produce, and gets you in front of a stakeholder who usually doesn't return recruiter calls.
-
-On compensation, the 0.8% headline is misleading for your book. If you're placing AI engineers, platform engineers, or cloud architects, you have real pricing power: those roles are up 9%+ and clients know it, so anchor your rate accordingly. If you're working entry-level or generalist placements, candidate supply is ample and speed-to-shortlist is the differentiator, not price. Those two conversations require different rate card framing, and conflating them costs you money on one end and credibility on the other.
+- Call GM's HR and TA leads this week — the company explicitly stated it needs AI engineering, data, and cloud talent and cut its internal team to get there; this is an inbound recruiting mandate wrapped in a layoff announcement
+- Source from the PayPal talent pool now: 4,760 fintech engineers and product managers at large-company scale, with cuts rolling over 2-3 years, meaning many affected employees won't have urgency yet and are reachable before outplacement floods the market
+- Brief financial-services and automotive clients on the GM and PayPal moves before their boards ask — proactively framing how their own IT workforce compares positions you as a strategic partner, not a headhunter
+- Log your clients' AI hiring tool vendors ahead of Colorado's June 30 AI Act start; if clients use automated screening in Colorado, they'll need bias audit documentation from vendors and most haven't asked for it yet
+- Pitch AI infrastructure and ML engineering search to manufacturing, finance, and retail incumbents that haven't restructured their IT departments: the GM pattern will repeat across industries in Q3-Q4
 
 ## 🔗 Sources Scanned This Week
-
-- TechCrunch, CNBC — Cloudflare Q1 2026 earnings and layoff coverage
-- Skillsyncer, Yahoo Finance — 2026 tech layoff tracker and analysis
-- Motion Recruitment / Staffing Industry Analysts — 2026 Tech Salary Guide
-- Outten & Golden — Eightfold AI class action coverage
-- Kyle Getsiv (Substack) — Q1 2026 HR Tech Funding Review
-- The AI Insider — Humand Series A coverage
-- LinkedIn Talent Blog — Skills on the Rise 2026, Hiring Assistant pilot data
-- iMocha, NACE Job Outlook 2026 — Skills-based hiring statistics
+- TechCrunch
+- CNBC
+- GeekWire / Automotive News
+- HR Executive
+- Drata AI Law Update
+- Juicebox blog
+- Sacra
+- Acceler8 Talent
+- Layoff Hedge / Skillsyncer
+- Josh Bersin (joshbersin.com)
+- LinkedIn Talent Blog
