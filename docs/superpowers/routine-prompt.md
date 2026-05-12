@@ -108,17 +108,38 @@ Draft the issue in markdown, following this structure exactly. **Skip any sectio
 ## 🗣️ Quotes & Threads Worth Reading
 - "[quote]" — [author], [where]. [Why it matters in 1 line.] [source link]
 
-## ⚙️ AI Workflow Automation Ideas
-- [1-2 concrete plays the team could try this week]
+## 🧰 Promising AI Tools to Test
+- [Tool name with link] — what it does in 1 line. Signal: [funding, named customers, recruiter-community traction, or domain-deep founders]. Test recommendation: [specific role/workflow to pilot it on].
 
-## 🎯 So What — Strategic Implications for Us
-[2-3 short paragraphs of strategic moves the agency should make. Be specific: pricing, pitches, sourcing targets, services to push.]
+## 🎯 Strategic Implications
+- [punchy 1-line implication]
+- [...]
+- [3-5 items total]
 
 ## 🔗 Sources Scanned This Week
 - [source]
 ```
 
 Target length: 900-1,100 words on a full-content week.
+
+### Section-specific rules
+
+**🧰 Promising AI Tools to Test — strict filter.** Include 1-3 tools per week, max. ONLY include a tool if it clears at least one of these signal bars:
+- Series A or later funding from a reputable VC (a16z, Sequoia, Greylock, Index, Accel, USV, Founders Fund, Bessemer, Kleiner, Insight, Tiger, Khosla, GV, Benchmark) within the past 12 months
+- Named enterprise customers at companies with >500 employees (not pilots, not "logo on the website" without proof)
+- Recurring discussion in trusted recruiter-community sources: Hung Lee's Brainfood, Tim Sackett, People Engineers newsletter, ERE, established recruiting Slacks/subreddits
+- Founders with deep recruiting domain experience (e.g., ex-head of TA at a large company, repeat HR-tech founder)
+
+DO NOT include: pre-launch tools, waitlist-stage products, undifferentiated Chrome-extension AI sourcing plugins, tools without named customers, "AI for X" press releases that are mostly marketing, products that just bolted "AI" onto an existing tool name.
+
+If no tool clears the bar this week, **skip the section entirely** — do not pad with marginal picks. A skipped section is the correct outcome more weeks than not. The whole point of this section is signal, not coverage.
+
+**🎯 Strategic Implications — formatting and tone.** 3-5 punchy single-line bullets. Each one names a specific, concrete move the agency should make this week or this month. Good examples:
+- "Pitch <service line> to <segment> clients who raised in Funding section this week"
+- "Reprice retainers for AI-engineer placements +5-8% given the 9% comp shift"
+- "Send a 1-page note to hiring managers about the Eightfold suit by Friday — they don't know about it yet"
+
+Avoid generic platitudes. Skip "stay aware of trends", "consider new approaches", "monitor the landscape" — those are filler. Each bullet should be specific enough to put on a Monday agency standup agenda.
 
 ## Step 4 — Self-check against writing rules
 

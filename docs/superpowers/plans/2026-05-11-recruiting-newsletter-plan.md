@@ -501,17 +501,18 @@ Configure:
 - **Description:** `What worked, what didn't, what to change. The generator reads new responses every Friday and adjusts.`
 - **Questions:**
   1. Type: **Paragraph**. Title: `Your feedback`. Required: ✓
-  2. Type: **Short answer**. Title: `Your name (optional)`. Required: ✗
+
+(No name field. Feedback is treated as anonymous on capture.)
 
 - [ ] **Step 2: Link the Form to a Google Sheet**
 
 In the Form editor, click the **Responses** tab → click the green Sheets icon ("Link to Sheets") → "Create a new spreadsheet" → name it `Recruiting Wire — Feedback Responses` → Create.
 
-The Sheet auto-creates with columns: `Timestamp`, `Your feedback`, `Your name (optional)`.
+The Sheet auto-creates with columns: `Timestamp`, `Your feedback`.
 
 - [ ] **Step 3: Add a Processed column to the Sheet**
 
-Open the Sheet in Drive. In column D (first empty column), add header `Processed`.
+Open the Sheet in Drive. In column C (first empty column), add header `Processed`.
 
 This column stays empty until the routine fills it in.
 
@@ -643,7 +644,6 @@ For each unprocessed row:
    ```
    ---
    submitted_at: <timestamp from sheet>
-   submitted_by: <name or "anonymous">
    ---
 
    <feedback body verbatim>
