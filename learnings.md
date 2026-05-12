@@ -15,6 +15,7 @@ This file is the durable, synthesized memory of feedback. The generation routine
 - Target 900-1000 words; do not compress below 900 even on a light news week — find more signal instead, or expand Strategic Implications (2026-05-12)
 - Do not feature the same company or theme in multiple sections — pick the single best framing and use it once. If a story spans categories (e.g., a layoff that is also a hiring pivot), put it in the most useful section for the agency reader (2026-05-12)
 - Funding & Hiring Signals section should focus on US-based tech companies; the purpose is to identify companies with current or imminent sourcing needs (2026-05-12)
+- Default to quick-hit bullets (company, key data, source) for fact-heavy sections — especially Layoffs & Talent Released, where each bullet should be company + headcount + location/function + source link in a single tight line. Reserve longer prose for sections where synthesis or analysis is the actual value (Week in One Paragraph; Strategic Implications when nuance is required). When in doubt, lean toward scannable bullets over dense paragraphs (2026-05-12)
 
 ---
 
