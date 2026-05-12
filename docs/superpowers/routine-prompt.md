@@ -80,7 +80,7 @@ Use web search to gather the past 7 days of news across these source layers, in 
 
 **Exclude:** vendor-paid placements, "Top 10" listicles, single-source claims on major moves (M&A, layoffs), pre-launch vapor.
 
-Draft the issue in markdown, following this structure exactly. **Skip any section with fewer than 2 strong items — do not pad.** "The Week in One Paragraph" and "So What — Strategic Implications" are required; they shrink but never disappear.
+Draft the issue in markdown, following this structure exactly. **Skip any section with fewer than 2 strong items — do not pad.** "The Week in One Paragraph" and "Strategic Implications" are required; they shrink but never disappear. The "Promising AI Tools to Test" section is optional and is skipped entirely if no tool clears the signal bar (see Section-specific rules below).
 
 ```
 # The Recruiting Wire
