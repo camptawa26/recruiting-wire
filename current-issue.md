@@ -1,65 +1,78 @@
 # The Recruiting Wire
 
-*Week of May 19–23, 2026*
+*Week of May 26–May 30, 2026*
 
 ## 📌 The Week in One Paragraph
 
-Meta executed its 8,000-person cut and cancelled 6,000 open roles while posting a record $56 billion quarter; Intuit followed with 3,000 cuts the same day. Federal courts advanced class actions against two major AI hiring platforms for secret candidate scoring. And autonomous sourcing agents went live as a shipped product for the first time. Profitable companies are rebuilding around AI fast enough that displacement and new hiring are happening simultaneously, and the tools automating that hiring are now themselves in legal jeopardy.
+A landmark Stanford study exposed systemic racial bias across 4 million applications screened by the Pymetrics algorithm, landing the same week Wix, LinkedIn, and Meta added thousands more cuts to 2026's 142,000-job tally. Capital kept flowing toward the machines doing the cutting: Cognition hit a $26B valuation after raising $1B for its AI coding agent, and OpenRouter closed $113M to route developers across 400+ models. Auditing the tools already in production is the industry's most urgent gap.
 
 ## 🤖 AI in Recruiting
 
-- Two class actions targeting AI hiring platforms are advancing through federal courts. In Mobley v. Workday, a California court authorized notice to potential class members alleging the company's screening AI filtered applicants by age, race, and disability; age discrimination claims under the ADEA now proceed to discovery. A separate case against Eightfold AI — filed in January by former EEOC chair Jenny Yang and the nonprofit Towards Justice — alleges the platform generated secret "likelihood of success" scores on over one billion candidates, drawn from scraped social media, location data, and internet activity, without the disclosures required under the Fair Credit Reporting Act. Unlike most AI hiring litigation, the Eightfold case targets secrecy, not bias. — [National Law Review](https://natlawreview.com/article/ai-hiring-under-fire-what-eightfold-lawsuit-means-every-employer-using-algorithmic), [Jones Walker](https://www.joneswalker.com/en/insights/blogs/ai-law-blog/ai-hiring-under-fire-what-eightfold-lawsuit-means-for-every-employer-using-a.html)
+- Stanford, Chapman, and Northeastern researchers analyzed 4 million applications at 156 large employers, all screened by the same Pymetrics algorithm. One in 10 positions showed adverse impact on Black applicants; 40,000 more applications would have advanced if Black and Asian candidates had been recommended at the same rate as the most-favored group. They also flagged "algorithmic monoculture": a candidate rejected at one Pymetrics client was systematically more likely to be rejected at the next one using the same setup. — [Fortune](https://fortune.com/2026/05/26/ai-hiring-algorithm-racial-disparities-pymetrics-stanford-study/)
 
-- iCIMS April data: job openings hit a 12-month peak at 15% above baseline, but application volume dropped 10% and hiring velocity stayed flat at 0% growth. Only 19% of entry-level job seekers say they feel confident about their careers — the lowest reading in the data series. — [iCIMS](https://www.icims.com/company/newsroom/mayinsights2026/)
+- iCIMS May report: job openings hit a 12-month high in April (up 15% over baseline), but application volume dropped 10% and entry-level hires rose just 3%. Only 19% of entry-level job seekers call themselves very confident in their career prospects; 54% believe employers now expect mid-level experience for entry-level roles. — [iCIMS](https://www.icims.com/company/newsroom/mayinsights2026/)
+
+- Workday's AI discrimination class-action cleared a key procedural hurdle: a federal court allowed age bias claims to proceed under the ADEA and is treating the software vendor as an agent of the employer. HR tech buyers can no longer rely on vendors to absorb the legal exposure when their tools discriminate. — [HR Dive](https://www.hrdive.com/news/workday-partial-loss-judge-refuses-claims-dismissal/814227/)
 
 ## 💼 Tech Hiring & Roles in Demand
 
-- AI-related job postings are up 74% year over year, and software engineering openings sit at 67,000+, roughly double the mid-2023 low. AI/ML engineers, DevOps/SRE, and cybersecurity remain the tightest categories. AI engineering, AI infrastructure, data engineering, and AI safety together account for more than half of new tech job postings, per Robert Half. — [Robert Half](https://www.roberthalf.com/us/en/insights/research/data-reveals-which-technology-roles-are-in-highest-demand)
+- Software engineering job listings are up 30% in 2026, with 67,000+ open roles — the most in three years. AI/ML, cloud, and security engineering are growing; all other software categories are flat or declining. AI skills appear in 42% of job descriptions (up from 8% in 2022), and entry-level postings are still 28% below their 2022 peak. Google is running 62% more engineering ads than last year. — [Metaintro](https://www.metaintro.com/blog/software-engineer-job-listings-spike-2026-ai-demand)
 
-- Job descriptions for AI product roles have shifted materially since late 2025: LLM integration, RAG-system architecture, and model fine-tuning experience now appear where "machine learning" was the qualifier before. Recruiters running intake on AI product mandates should update their screening questions to probe for these distinctions specifically. — [Final Round AI](https://www.finalroundai.com/blog/software-engineering-job-market-2026)
+- AI literacy tops LinkedIn's Skills on the Rise 2026 report. Roles explicitly requiring AI fluency grew from 1 million to 7 million workers in two years, and workers with those skills earn up to 56% more than peers in comparable roles. — [Gloat](https://gloat.com/blog/ai-skills-demand/)
 
 ## 📈 Funding & Hiring Signals
 
-- Sierra (SF) — $950M Series E, Tiger Global + GV + Benchmark + Sequoia, $15.8B post-money. Enterprise customer AI agents; 40%+ of Fortune 50 as clients, $150M ARR. Scaling engineering and enterprise sales aggressively. — [TechCrunch](https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/)
+- Cognition (NYC) — $1B, late-stage, Lux Capital / General Catalyst / 8VC / Founders Fund. $26B valuation. Makes Devin, the AI coding agent; $492M ARR; Goldman Sachs and Mercedes-Benz as customers. Engineering and enterprise sales hires expected. — [TechCrunch](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)
 
-- Hark (US) — $700M+ Series A, Parkway Venture Capital led, NVIDIA, AMD, Intel Capital, Qualcomm, and Salesforce Ventures participating. AI hardware, $6B valuation. Brett Adcock's new startup (previously Figure AI, Archer Aviation). Research and applied engineering hiring expected immediately. — [Bloomberg, May 21](https://www.bloomberg.com/news/articles/2026-05-21/ai-hardware-startup-hark-valued-at-6-billion-in-new-funding-round)
+- OpenRouter (NYC) — $113M Series B, CapitalG / a16z / Menlo Ventures. $1.3B valuation. Routes 8M+ developers across 400 AI models; weekly token volume grew 5x in six months. ML, infra, and BD hires likely. — [TechCrunch](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/)
 
-- Exa Labs (SF) — $250M, Andreessen Horowitz, $2.2B valuation. Building search infrastructure for AI agents. Engineering team scaling to meet agent-driven query demand. — [Bloomberg, May 20](https://www.bloomberg.com/news/articles/2026-05-20/andreessen-backed-ai-search-startup-exa-valued-at-2-2-billion)
+- Rippling (SF) — $450M Series G, Sequoia. $16.8B valuation. HR/payroll/IT platform; product, sales, and CS hires likely. — [Crunchbase](https://news.crunchbase.com/venture/ai-hr-software-startup-funding-ma/)
 
-- DeepInfra — $107M Series B, Georges Harik + 500 Global. High-throughput AI inference cloud platform. Engineering-intensive build-out to support surging model deployment volumes. — [Crunchbase News](https://news.crunchbase.com/venture/biggest-funding-rounds-sierra-astrani-anagram-therapeutics/)
+- Dust (SF) — $40M Series B, Sequoia / Snowflake Ventures / Datadog. Enterprise AI assistants connecting to Slack, Notion, and GitHub. Engineering and enterprise sales hires likely.
 
-- Tessera Labs — $60M, Andreessen Horowitz. Enterprise ERP AI platform; converts business requirements to operational AI in days rather than months. Hiring for product and integration engineering. — [Crunchbase News](https://news.crunchbase.com/venture/biggest-funding-rounds-sierra-astrani-anagram-therapeutics/)
+- Catena Labs (US) — $30M Series A, a16z crypto / General Catalyst / QED. Fintech AI; engineering and financial product hires.
 
 ## 📉 Layoffs & Talent Released
 
-- Meta: 8,000 employees (10% of workforce), May 20. Reality Labs, Facebook, recruiting, sales, and global ops all affected. An additional 6,000 open roles cancelled; further rounds expected in August and autumn. — [Al Jazeera](https://www.aljazeera.com/economy/2026/5/20/meta-cuts-8000-jobs-in-sweeping-global-layoffs)
-- Intuit: 3,000 employees (17% of workforce), May 20. TurboTax, QuickBooks, and Credit Karma divisions; Reno operations closing entirely. — [TechCrunch](https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/)
-- PayPal: 4,760 employees (~20%), announced May 5. Fintech-heavy; strong engineering concentration in the available talent pool. — [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/paypal-layoffs-ceo-cuts-20-154944985.html)
-- LinkedIn: ~875 employees (~5%), per Reuters. Product and sales functions most affected. — [Yahoo Tech](https://tech.yahoo.com/general/article/tech-layoffs-2026-update-over-142000-people-have-been-laid-off-this-year-from-companies-like-paypal-meta-cloudflare-and-more-144545654.html)
+- Wix — 1,000 jobs (20% of workforce), May 28. AI restructuring + strong Israeli shekel; software, product, and ops roles. — [CNBC](https://www.cnbc.com/2026/05/28/wix-layoffs-ai-exchange-rates.html)
+
+- LinkedIn — ~606 California layoffs, 411 in Mountain View; two-thirds were software engineers. — [Mountain View Voice](https://www.mv-voice.com/technology/2026/05/22/linkedin-intuit-lay-off-over-800-employees-in-mountain-view/)
+
+- Intuit — 3,000 jobs (17% of headcount), Mountain View and global offices; finance, software, and product. — [TechCrunch](https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/)
+
+- Meta — ~200 Bay Area workers exiting end of May (Burlingame, Sunnyvale) as part of the 8,000-person wave announced last month. — [Yahoo Tech](https://tech.yahoo.com/general/article/tech-layoffs-2026-over-142000-jobs-cut-at-meta-linkedin-wix-webflow-and-more-144545455.html)
+
+- Industry total: 142,000+ tech jobs cut in 2026 across 353 events (~994/day); capital reallocation toward AI infrastructure is the primary driver. — [TechTimes](https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm)
 
 ## 💰 Compensation
 
-- AI/ML engineering compensation is growing at 4.1% annually in 2026 — more than double the 1.6% rate for broader tech. Mid-level AI engineers now draw $160K–$210K base; senior engineers $220K–$300K+. The AI wage premium over comparable non-AI roles sits at 56%, per Pin compensation data. — [Pin](https://www.pin.com/blog/ai-compensation-salary-guide/)
+- Average AI engineer total comp hit $206K in 2026, up $50K year-over-year. Mid-level base runs $160K–$210K; senior total comp clears $300K at most tech companies. Levels.fyi puts OpenAI L5 at $1.15M ($336K base + $774K/year in stock). — [Kore1](https://www.kore1.com/ai-engineer-salary-guide/)
 
-- LLM fine-tuning specialists earn 25–40% above generalist ML engineers; AI safety and alignment expertise commands a 45% premium, up from near-zero three years ago. The market has bifurcated sharply: general AI/ML engineers clear $160K–$245K base, while researchers at frontier labs reach $500K–$800K+ in total comp. — [Acceler8 Talent](https://www.acceler8talent.com/resources/blog/ai-engineer--salary---market-rates-2025-2026/)
+- Losing a tech job now costs workers an average of $14,400/month, per a study released May 28, factoring in lost salary, benefits, and out-of-pocket job search expenses. — [American Bazaar Online](https://americanbazaaronline.com/2026/05/28/losing-a-tech-job-in-2026-now-costs-workers-nearly-14400-month-481700/)
 
 ## 🗣️ Quotes & Threads Worth Reading
 
-- "That $500,000 engineer at the end of the year, I'm going to ask him, how much did you spend in tokens? If that $500,000 engineer did not consume at least $250,000 worth of tokens, I am going to be deeply alarmed." — Jensen Huang, GTC 2026, via CNBC. Compute consumption is becoming a performance metric for senior engineers; clients will start adding token-spend expectations to technical job specs and performance reviews. — [CNBC](https://www.cnbc.com/2026/03/20/nvidia-ai-agents-tokens-human-workers-engineer-jobs-unemployment-jensen-huang.html)
-
-- "We now require AI fluency for every single new hire, regardless of role." — Zapier company blog, V2 rubric (March 2026), featured on Brainfood Live with Soeren Winter, May 22. Zapier's four-tier rubric — Unacceptable, Capable, Adoptive, Transformative — is the emerging default for AI-fluency screening across enterprise hiring orgs. Know it before your next technical intake call. — [Zapier Blog](https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/), [Recruiting Brainfood](https://recruitingbrainfood.substack.com/p/recruiting-brainfood-issue-501)
+- "We had no choice." — Wix CEO Avishai Abrahami, announcing the 20% headcount cut on X. No disclosure of what AI-native roles replace the ones cut; that gap is now standard in every AI restructuring announcement, and it's the question every hiring manager has not yet taken to their exec team. — [Ynet News](https://www.ynetnews.com/business/article/ryroptbxme)
 
 ## 🧰 Promising AI Tools to Test
 
-- [Juicebox](https://juicebox.ai) — autonomous AI sourcing agents that run continuously across all open roles, surfacing passive candidates without manual recruiter queuing. Signal: $36M raised (Sequoia-led Series A + prior YC seed), named customers at Ramp and Perplexity, 3,000+ orgs, covered this week by TechCrunch and SiliconAngle. Test on: passive sourcing for mid-to-senior engineering roles where your team currently spends 8–10 hours per week on manual outreach. — [SiliconAngle, May 20](https://siliconangle.com/2026/05/20/exclusive-juicebox-autonomous-recruiting-agents-help-source-candidates-proactively/)
+- [Juicebox](https://juicebox.ai) — Sourcing tool that builds candidate lists from natural language prompts rather than Boolean strings. $30M Series A led by Sequoia; 20%+ monthly ARR growth. Test recommendation: passive sourcing on senior AI/ML engineering searches where Boolean logic over-returns unqualified candidates.
 
 ## 🎯 Strategic Implications
 
-- Meta's 14,000 effective headcount reduction (8,000 cuts + 6,000 cancelled roles) is releasing engineers from Reality Labs, infrastructure, and enterprise sales simultaneously. Source this cohort before every other agency pivots from the Intuit and LinkedIn pools.
-- The Eightfold lawsuit names employers, not just the vendor — send hiring managers a one-page FCRA risk brief this week. Most don't know their AI screening vendor exposed them to federal class action liability; being the firm that tells them first matters.
-- Juicebox's autonomous sourcing is live. Run a 30-day pilot against one current mandate to measure output before your clients start asking what your sourcing team adds that the agents don't.
-- AI/ML engineer comp is growing at 4.1% annually versus 1.6% for general tech. Add 5–8% to retainer calculations on AI engineering placements — pricing set before this spread widened undercharges on every placement.
+- Send a one-pager to any client using algorithmic pre-screening tools about the Stanford study — their legal and compliance teams haven't seen this yet, and first-mover credit here is real.
+- Pitch embedded TA retainers to Cognition, OpenRouter, and Dust this week — all three have fresh capital and hiring pace that has outrun their TA infrastructure.
+- Source the LinkedIn and Wix cuts before larger agencies do: ~400 LinkedIn software engineers in Mountain View and 1,000 Wix employees across software, product, and ops are entering the market now.
+- Reprice AI/ML engineer placements +8-10% for any client with a retainer benchmarked on 2025 salary data — the $50K YoY comp increase makes last year's rates wrong.
+- The iCIMS data (entry-level openings up 18%, applications down 9%) points to an application conversion problem; clients with hourly or frontline hiring needs should hear this before they expand sourcing budgets.
 
 ## 🔗 Sources Scanned This Week
 
-- TechCrunch, Bloomberg, CNBC, Crunchbase News, Al Jazeera, NPR, Yahoo Finance, Yahoo Tech, National Law Review, Jones Walker, iCIMS, Robert Half, Final Round AI, Recruiting Brainfood (Hung Lee), Zapier Blog, HR Heretics, SiliconAngle, Pin Compensation, Kore1, layoffs.fyi, TrueUp, ObjectWire
+- Fortune, The Register, Inc. Magazine (Stanford AI bias study)
+- iCIMS Workforce Report, May 2026
+- HR Dive (Workday class-action)
+- Metaintro, Gloat (job market and AI skills data)
+- TechCrunch, Crunchbase News (funding)
+- CNBC, Ynet News, Mountain View Voice, Yahoo Tech, TechTimes (layoffs)
+- American Bazaar Online, Kore1, Levels.fyi (compensation)
+- Recruiting Brainfood / Hung Lee, Josh Bersin Blog, SHRM, LinkedIn Talent Blog
